@@ -1,0 +1,53 @@
+body{
+    .display-5{
+        display: flex;
+        text-align: justify;
+        margin-top: 50px;
+        font-size: 85%;
+        .serv_n{
+            display: none;
+
+
+        }
+        .row{
+            .col{
+                .serv_subs{
+                    display: block;
+                    text-align:left;
+                    font-size: larger;
+                    position:relative;
+                    font-weight: lighter;
+                    text-align: center;
+                    margin-bottom: 8%;
+                   
+
+
+                }
+
+
+                .text_servfix{
+                    margin: 40px;
+
+
+                }
+               
+            }
+        }
+
+
+    }
+    section{
+        display: flex;
+    }
+}
+
+
+@media (max-width:500px){
+
+
+    .serv_subs{
+        margin-left: 3%;
+        margin-top: 25%;
+        margin-bottom: 10%;
+    }
+}
